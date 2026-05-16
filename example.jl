@@ -1,17 +1,17 @@
 import Pkg 
 Pkg.activate(@__DIR__)
 
-include("greedy-weights/ugh.jl")
-Pokus.hello()
+# include("greedy-weights/ugh.jl")
+# Pokus.hello()
 
 
-include("greedy-weights/Game.jl")
+include("src/Game.jl")
 include("exploitability.jl")
-include("greedy-weights/RegretMinimization.jl") 
-include("greedy-weights/plotting.jl") 
-include("greedy-weights/minmax.jl")
-include("fictitious_play/fictitious_play.jl")
-include("mwu/mwu.jl")
+include("src/RegretMinimization.jl") 
+include("src/plotting.jl") 
+include("src/minmax.jl")
+# include("fictitious_play/fictitious_play.jl")
+# include("mwu/mwu.jl")
 
 
 
